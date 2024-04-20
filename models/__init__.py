@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""This module instantiates an object of class FileStorage"""
-
+"""create a unique FileStorage instance for your application"""
 from os import getenv
 from models.engine.db_storage import DBStorage
 from models.engine.file_storage import FileStorage

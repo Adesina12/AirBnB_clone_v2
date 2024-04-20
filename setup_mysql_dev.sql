@@ -1,4 +1,4 @@
--- script that prepares a MYSQL server for a project
+-- prepares a MySQL server for the AirBnB clone
 
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost' IDENTIFIED BY 'hbnb_dev_pwd';
